@@ -6,6 +6,11 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  // import components here
+  app.import(app.bowerDirectory + '/bootstrap/dist/js/bootstrap.js');
+  // also you can import like code below
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
